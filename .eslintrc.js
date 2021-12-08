@@ -1,19 +1,19 @@
 module.exports = {
-    extends: ["react-app", "prettier"],
-    plugins: ["prettier", "jest", "cypress"],
-    parser: "babel-eslint",
+    extends: ['react-app', 'prettier'],
+    plugins: ['prettier', 'jest', 'cypress'],
+    parser: 'babel-eslint',
     env: {
-        browser: true,
-        "cypress/globals": true,
-        es6: true,
-        "jest/globals": true,
+      browser: true,
+      'cypress/globals': true,
+      es6: true,
+      'jest/globals': true,
     },
     settings: {
-        react: {
-            version: "detect",
-        },
+      react: {
+        version: 'detect',
+      },
     },
     rules: {
-        "prettier/prettier": "warn",
+      'prettier/prettier': 'warn',
     },
-};
+  };
